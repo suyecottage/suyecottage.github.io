@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+body {
+	width: 1440px;
+	-webkit-text-size-adjust:none;
+}
+
+a {
+	text-decoration: none;
+}
+/* 👆清楚浏览器默认样式 */
+
+
+
+
+
+.public_color_brand {
+	color: #003AFF!important;
+	
+}
+
+.public_color_black {
+	color: #1D1D25!important;
+}
+
+.public_color_gray {
+	color: #aaaaaa!important;
+}
+/* 👆颜色统一管理 */
+
+
+
+
+
+.nav>.a-selected {
+	font-weight: bold;
+}
+/* 👆tab选中状态 */
+
+
+
+
+.nav>a:hover{
+	transform: scale(1.1);
+	color: #003AFF;
+	transition: color 0.3s ease-in-out;
+}
+
+.nav>a:active{
+	color: #AAAAAA;
+	transition: color 0.2s ease-in-out;
+}
+/* tab点按效果 */
