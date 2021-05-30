@@ -53,6 +53,9 @@ a {
 	.works>.works_item {
 		flex: 0 0 100%;
 	}
+	.myprofile>h1 {
+		font-size: 24px;
+	}
 }
 
 @media (min-width:541px) and (max-width:980px) {

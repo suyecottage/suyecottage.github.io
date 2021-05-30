@@ -1,7 +1,5 @@
 /* 头部导航 */
 .header {
-	/* padding: 0 22%; */
-	
 	width: 100%;
 	height: 64px;
 	background: #FFFFFF;
@@ -290,4 +288,8 @@
 	height: 12px;
 	background: #C4C4C4;
 	display: block;
+}
+
+.footer>.link {
+	display: none;
 }
