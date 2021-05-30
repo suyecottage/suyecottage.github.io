@@ -5,11 +5,18 @@
 	box-sizing: border-box;
 	-moz-box-sizing:border-box; /* Firefox */
 	-webkit-box-sizing:border-box; /* Safari */
+	scrollbar-width: none; */ /* Firefox
+	-ms-overflow-style: none; /* IE 10+ */
 }
 
-body {
-	width: 1440px;
+body, html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 	-webkit-text-size-adjust:none;
+	font-family: OPPOSans,Inter,Segoe UI,PingFang SC,HiraginoSansGB-W3,Microsoft Yahei,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 a {
@@ -19,42 +26,36 @@ a {
 
 
 
-
-
-.public_color_brand {
-	color: #003AFF!important;
-	
-}
-
-.public_color_black {
-	color: #1D1D25!important;
-}
-
-.public_color_gray {
-	color: #aaaaaa!important;
-}
-/* 👆颜色统一管理 */
-
-
-
-
-
 .nav>.a-selected {
 	font-weight: bold;
+	color: #003AFF;
 }
 /* 👆tab选中状态 */
 
 
 
-
 .nav>a:hover{
-	transform: scale(1.1);
+	/* transform: scale(1.1); */
+	/* font-weight: bold; */
 	color: #003AFF;
-	transition: color 0.3s ease-in-out;
+	transition: /* color */0.3s ease-in-out;
 }
 
 .nav>a:active{
 	color: #AAAAAA;
 	transition: color 0.2s ease-in-out;
 }
-/* tab点按效果 */
+/* 👆tab点按效果 */
+
+
+
+@media (max-width: 540px) {
+	.works>.works_item {
+		flex: 0 0 100%;
+	}
+}
+
+@media (min-width:541px) and (max-width:980px) {
+	.works>.works_item {
+		flex: 0 0 50%;
+}
