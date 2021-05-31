@@ -77,6 +77,19 @@
 	transition: 0.3s ease-in-out;
 }
 
+.link>a>svg {
+	width: 24px;
+	height: 24px;
+	fill: #1D1D25;
+	transition: 0.3s ease-in-out;
+}
+
+.link>a>svg:hover {
+	width: 24px;
+	height: 24px;
+	fill: #0035FF;
+	transition: 0.3s ease-in-out;
+}
 
 /* 身体部分 */
 .main_container {
