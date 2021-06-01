@@ -191,6 +191,7 @@
 
 .card_cover img{
 	width: 100%;
+	vertical-align: top;
 }
 
 .item_photo {
