@@ -3,7 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
+		
 	</head>
 	<body>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).on('click', '.audio', function () {
+			    var $this = $(this),
+			        $audio = $this.find("audio");
+			    $audio.get(0).play();
+			});
+		</script>
+		<button  class="btn audio">
+		    播放语音
+			<audio src="audio/列车.mp3" >
+				<!-- 当前浏览器不支持audio -->
+			</audio>
+		</button>
+		<button  class="btn audio">
+		    播放语音
+			<audio src="./audio/海.mp3" controls="controls">
+				<!-- 当前浏览器不支持audio -->
+			</audio>
+		</button>
+		<!-- <a href="./audio/夏夜.mp3">播放语音</a> -->
 	</body>
 </html>

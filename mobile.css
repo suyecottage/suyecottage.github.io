@@ -75,3 +75,20 @@
 	.footer>.link {
 		display: flex;
 	}
+	
+	.audio_cover {
+		margin: 0 7.5px;
+		overflow: hidden;
+		border-radius: 8px;
+		position: relative;
+		cursor: pointer;
+	}
+	
+	.audio {
+		margin-bottom: 20px;
+	}
+	
+	.audio_container {
+		margin: 0 -7.5px;
+		margin-bottom: 16px;
+	}
