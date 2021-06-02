@@ -1,0 +1,14 @@
+.audio {
+		margin-bottom: 28px;
+	}
+	
+	.audio_container {
+		margin: 0 -12px;
+		margin-bottom: 24px;
+	}
+	
+	.audio_cover {
+		margin: 0 12px;
+		border-radius: 10px;
+	}
+	

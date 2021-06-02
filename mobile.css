@@ -78,10 +78,7 @@
 	
 	.audio_cover {
 		margin: 0 7.5px;
-		overflow: hidden;
 		border-radius: 8px;
-		position: relative;
-		cursor: pointer;
 	}
 	
 	.audio {
