@@ -363,6 +363,8 @@
 }
 
 .audio_item_title>svg {
+	width: 67px;
+	height: 67px;
 	margin-bottom: 16px;
 }
 
