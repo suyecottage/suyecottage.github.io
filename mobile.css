@@ -93,6 +93,8 @@
 	.audio_item_title {
 		/* transform: scale(0.7); */
 		font-size: 14px;
+		left: calc(50% - 54px/2 - 0.37px);
+		top: calc(50% - 79.63px/2 - 0.37px);
 	}
 	
 	.audio_item_title>svg {
