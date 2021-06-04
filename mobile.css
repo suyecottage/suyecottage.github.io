@@ -68,6 +68,10 @@
 		transition: 0.3s ease-in-out;
 	}
 	
+	/* .footer {
+		padding: 0 16px;
+	} */
+	
 	.footer_nav {
 		display: none;
 	}
@@ -109,4 +113,16 @@
 		opacity: 0;
 		transition: all 0.8s ease;
 		margin-top:2px;
+	}
+	
+	.about_img>img {
+		width: 231px;
+	}
+	
+	.world {
+		margin: 16px 0 32px 0;
+	}
+	
+    .cat {
+		display: none;
 	}

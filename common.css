@@ -196,6 +196,9 @@
 
 .item {
 	background-color: #FFFFFF;
+	border: 0.5px solid rgba(0,0,0,0.1);
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 .card_cover {
@@ -221,7 +224,7 @@
 	display: flex;
 	align-items: flex-start;
 	flex-direction: column;
-	margin-top: 8px;
+	margin: 12px 8px;
 }
 
 .card_title>.time {
@@ -283,11 +286,10 @@
 
 .footer_nav>a {
 	padding: 15px;
-	font-size: 12px;
 	text-align: center;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
+	font-weight: 430;
+	font-size: 14px;
 	line-height: 16px;
 	text-align: center;
 	color: #1D1D25;
@@ -421,7 +423,8 @@
 	display: flex;
 	flex-direction: column;
 	max-width: 720px;
-	margin-top: 40px;
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
 
 /* .about_img {
