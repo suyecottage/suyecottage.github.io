@@ -28,9 +28,12 @@ a {
 	text-decoration: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 /* 👆清楚浏览器默认样式 */
 
+
+.inline_link {
+	color: #003AFF;
+}
 
 
 .nav>.a-selected {

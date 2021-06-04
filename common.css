@@ -383,7 +383,7 @@
 }
 .img_active{
 	border: 2px solid rgba(255, 255, 255, 0.2);
-	border-radius: 16px;
+	border-radius: 12px;
 	/* transition: border 0.4s ease-in-out; */
 }
 .audio_item_title_active{
@@ -406,4 +406,72 @@
 }
 .irs--flat .irs-handle>i:first-child{
 	background: transparent!important;
+}
+
+
+
+/* 关于 */
+.about_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.world {
+	display: flex;
+	flex-direction: column;
+	max-width: 720px;
+	margin-top: 40px;
+}
+
+/* .about_img {
+	margin-left: 40px;
+} */
+
+.world>h6 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	display: flex;
+	align-items: flex-end;
+	text-transform: capitalize;
+	color: #AAAAAA;
+}
+
+.world>h2 {
+	font-family: Source Han Serif CN;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	text-transform: capitalize;
+	color: #1D1D25;
+	margin-top: 16px;
+}
+
+.world>p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 240%;
+	text-align: justify;
+	color: #1D1D25;
+	margin: 40px 0 16px 0 ;
+}
+
+.world>a {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 240%;
+	text-align: justify;
+}
+
+.cat {
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }
