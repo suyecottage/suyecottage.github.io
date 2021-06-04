@@ -126,3 +126,16 @@
     .cat {
 		display: none;
 	}
+	
+	.portfolio_container {
+		margin-top: -8px;
+		margin-bottom: 0px;
+	}
+	
+	.portfolio_cover {
+		margin-bottom: 24px;
+	}
+	
+	.portfolio_title {
+		opacity: 1;
+	}

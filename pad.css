@@ -18,3 +18,11 @@
 		transition: all 0.8s ease;
 		margin-top:10px;
 	}
+	
+	.cat {
+		display: none;
+	}
+	
+	.portfolio_title {
+		opacity: 1;
+	}

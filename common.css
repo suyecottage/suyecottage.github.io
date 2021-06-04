@@ -93,7 +93,6 @@
 
 /* 身体部分 */
 .main_container {
-	/* padding: 80px 22%; */
 	width: 100%;
 	max-width: 980px;
 	height: 100%;
@@ -101,7 +100,7 @@
 	margin: 0 auto;
 	padding: 80px 15px;
 	padding-bottom: 0px;
-	/* margin-top: 64px; */
+	position: relative;
 }
 
 .main_container::-webkit-scrollbar {
@@ -196,7 +195,7 @@
 
 .item {
 	background-color: #FFFFFF;
-	border: 0.5px solid rgba(0,0,0,0.1);
+	border: 0.5px solid rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	overflow: hidden;
 }
@@ -269,6 +268,8 @@
 	margin: 0 auto;
 	height: 64px;
 	max-width: 980px;
+	/* position: absolute;
+	bottom: 0; */
 }
 
 
@@ -288,8 +289,8 @@
 	padding: 15px;
 	text-align: center;
 	font-style: normal;
-	font-weight: 430;
-	font-size: 14px;
+	font-weight: 400;
+	font-size: 16px;
 	line-height: 16px;
 	text-align: center;
 	color: #1D1D25;
@@ -371,43 +372,51 @@
 	height: 67px;
 	margin-bottom: 16px;
 }
-.irs--flat{
+
+.irs--flat {
 	width: 170px;
 	transform: translateY(23px);
 	opacity: 0;
 	transition: all 0.8s ease;
-	margin-top:10px;
+	margin-top: 10px;
 }
-.range_active{
-	transform: translateY(0)!important;
-	opacity: 1!important;
-	transition: all 0.4s ease!important;
+
+.range_active {
+	transform: translateY(0) !important;
+	opacity: 1 !important;
+	transition: all 0.4s ease !important;
 }
-.img_active{
+
+.img_active {
 	border: 2px solid rgba(255, 255, 255, 0.2);
 	border-radius: 12px;
 	/* transition: border 0.4s ease-in-out; */
 }
-.audio_item_title_active{
+
+.audio_item_title_active {
 	transform: translateY(-17px);
 	transition: all 0.8s ease;
 }
-.irs-bar--single{
-	background: white!important;
-	height: 4px!important;
+
+.irs-bar--single {
+	background: white !important;
+	height: 4px !important;
 }
-.irs-line{
-	height: 4px!important;
-	background: rgba(255,255,255,0.2)!important;
+
+.irs-line {
+	height: 4px !important;
+	background: rgba(255, 255, 255, 0.2) !important;
 }
-.single{
-	height: 12px!important;
-	width: 12px!important;
-	border-radius: 50%!important;
-	background: white!important;
+
+.single {
+	height: 12px !important;
+	width: 12px !important;
+	border-radius: 50% !important;
+	background: white !important;
 }
-.irs--flat .irs-handle>i:first-child{
-	background: transparent!important;
+
+.irs--flat .irs-handle>i:first-child {
+	background: transparent !important;
 }
 
 
@@ -427,9 +436,12 @@
 	margin-bottom: 24px;
 }
 
-/* .about_img {
-	margin-left: 40px;
-} */
+.about_img:hover {
+	filter: filph;
+	-moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+		-webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+		-o-transform:matrix(-1,0,0,1,0,0);
+} 
 
 .world>h6 {
 	font-style: normal;
@@ -462,7 +474,7 @@
 	line-height: 240%;
 	text-align: justify;
 	color: #1D1D25;
-	margin: 40px 0 16px 0 ;
+	margin: 40px 0 16px 0;
 }
 
 .world>a {
@@ -477,4 +489,82 @@
 	position: fixed;
 	bottom: 0;
 	right: 0;
+}
+
+
+/* 杂集开始 */
+.portfolio_container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12px;
+	margin-bottom: 40px;
+	margin-top: -32px;
+}
+
+.portfolio {
+	flex: 0 0 33.33%;
+	padding: 0 12px;
+}
+
+.portfolio_cover {
+	background-color: #FFFFFF;
+	border: 0.5px solid rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.portfolio_cover>img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.portfolio_title {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	left: 0px;
+	bottom: 0px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+	/* visibility: hidden; */
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.portfolio_cover:hover>.portfolio_title {
+	/* visibility: visible; */
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+.portfolio_title>p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 21px;
+	text-align: start;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin: 43px 16px 16px 16px;
+}
+
+
+#loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+	opacity: 1;
+}
+
+#loading>svg {
+   transform: scale(1.5);
+	position: absolute;
+	z-index: 2001;
+	top: 50%;
+	left: 50%;
 }

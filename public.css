@@ -71,6 +71,10 @@ a {
 	.audio_container>.audio {
 		flex: 0 0 50%;
 	}
+	
+	.portfolio_container>.portfolio {
+		flex: 0 0 100%;
+	}
 }
 
 @media (min-width:541px) and (max-width:980px) {
@@ -80,5 +84,9 @@ a {
 
 	.audio_container>.audio {
 		flex: 0 0 33.3%;
+	}
+	
+	.portfolio_container>.portfolio {
+		flex: 0 0 50%;
 	}
 }
