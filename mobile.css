@@ -141,16 +141,16 @@
 		display: none;
 	}
 	
-	.portfolio_container {
+	.instant_container {
 		margin-top: -8px;
 		margin-bottom: 0px;
 	}
 	
-	.portfolio_cover {
+	.instant_cover {
 		margin-bottom: 24px;
 	}
 	
-	.portfolio_title {
+	.instant_title {
 		opacity: 1;
 	}
 	
@@ -160,4 +160,11 @@
 	
 	.text_none {
 		display: none;
+	}
+	
+	
+	
+	/* 即刻内容 */.portfolio-item_title>.time_title>h2 {
+		font-size: 18px;
+		line-height: 24px;
 	}
