@@ -338,6 +338,7 @@
 	padding: 0px 13px 0px 0px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 49px;
+	cursor: pointer;
 }
 
 .time_container {
@@ -426,7 +427,6 @@
 	color: #666666;
 	transition: all 0.3s ease-in-out;
 	border: 1px solid rgba(0, 0, 0, 0);
-	cursor: pointer;
 }
 
 #hour,#minute{
@@ -440,11 +440,12 @@
 #hour {
 	width: 131px;
 	text-align: right;
+	margin-right: 5px;
 }
 
 #minute{
 	width: 131px;
-	/* margin-left: 5px; */
+	margin-left: 5px;
 }
 
 #text_time:focus {
