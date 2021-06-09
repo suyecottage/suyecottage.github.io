@@ -426,6 +426,7 @@
 	color: #666666;
 	transition: all 0.3s ease-in-out;
 	border: 1px solid rgba(0, 0, 0, 0);
+	cursor: pointer;
 }
 
 #hour,#minute{
@@ -436,8 +437,14 @@
 	background: none;
 }
 
+#hour {
+	width: 131px;
+	text-align: right;
+}
+
 #minute{
-	margin-left: 5px;
+	width: 131px;
+	/* margin-left: 5px; */
 }
 
 #text_time:focus {
@@ -460,10 +467,15 @@
 	height: 44px;
 	border: none;
 	background: #FFFFFF;
-	border-top: 1px solid rgba(0,0,0,0.08);
-	border-right: 0.5px solid rgba(0,0,0,0.08);
+	border-top: 0.5px solid rgba(0,0,0,0.1);
+	border-right: 0.5px solid rgba(0,0,0,0.1);
 	border-radius: 0px;
 	color: #AAAAAA;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 44px;
+	text-align: center;
 }
 
 #on {
@@ -472,10 +484,15 @@
 	height: 44px;
 	border: none;
 	background: #FFFFFF;
-	border-top: 0.5px solid rgba(0,0,0,0.08);
+	border-top: 0.5px solid rgba(0,0,0,0.1);
 	border-radius: 0px;
 	color: #003AFF;
 	font-weight: 500;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 44px;
+	text-align: center;
 }
 
 #on:active {
