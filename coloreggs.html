@@ -21,7 +21,7 @@
 	<body>
 		<!-- 加载样式 -->
 		<div style="background-color: rgba(0,0,0,0.8);" id="loading">
-			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#;display:block;"
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;display:block;"
 			 width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
 				<g>
 					<animateTransform attributeName="transform" type="rotate" values="360 50 50;0 50 50" keyTimes="0;1" dur="2.7027027027027026s"
@@ -73,12 +73,16 @@
 			</div>
 			
 			<!-- 弹窗样式 -->
-			<div id="alert">
-				<h4>设置倒计时</h4>
-				<input type="text" placeholder="00:20:00" id="text_time">
-				<div class="on_off">
-					<button id="off">取消</button>
-					<button id="on">确定</button>
+			<div class="timeout_mask" >
+				<div id="alert">
+					<h4>设置倒计时</h4>
+					<div class="time_box">
+						<input type="text" value="20" id="hour">:<input type="text" value="00" id="minute">
+					</div>
+					<div class="on_off">
+						<button id="off">取消</button>
+						<button id="on">确定</button>
+					</div>
 				</div>
 			</div>
 			
@@ -115,7 +119,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!--  身体部分 -->
 		<div class="main_container">
 			<!-- 头部简介 -->
@@ -131,14 +134,13 @@
 
 				<div class="time_container">
 					<h1>这是一个白噪音专注小彩蛋 👨‍💻</h1>
-					
 					<!-- 设置定时 -->
-					<a href="" class="timing" <!-- style="display: none; -->">
+					<div class="timing">
 						<img src="img/icon_timing.svg">
 						<span id="time">
 							20:00
 						</span>
-					</a>
+					</div>
 				</div>
 			</div>
 
