@@ -356,7 +356,7 @@
 	line-height: 24px;
 	letter-spacing: 0.07em;
 	color: #FFFFFF;
-
+    font-feature-settings: 'ss01' on;
 }
 
 .time_container>h1 {
@@ -435,6 +435,7 @@
 	font-size: 15px;
 	border: 0;
 	background: none;
+	font-feature-settings: 'ss01' on;
 }
 
 #hour {

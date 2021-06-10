@@ -21,7 +21,8 @@ html {
 	display: flex;
 	flex-direction: column;
 	-webkit-text-size-adjust: none;
-	font-family: OPPOSans, Inter, Segoe UI, PingFang SC, HiraginoSansGB-W3, Microsoft Yahei, Helvetica Neue, Helvetica, Arial, sans-serif;
+	/* font-family: HarmonyOS Sans SC, OPPOSans, Inter, Segoe UI, PingFang SC, HiraginoSansGB-W3, Microsoft Yahei, Helvetica Neue, Helvetica, Arial, sans-serif; */
+	font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
 
 a {
@@ -35,6 +36,7 @@ a {
 .inline_link {
 	color: #003AFF;
 }
+
 
 
 .nav>.a-selected {
