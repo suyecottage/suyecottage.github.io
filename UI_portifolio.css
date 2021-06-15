@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/* Firefox */
+	-webkit-box-sizing: border-box;
+	/* Safari */
+	scrollbar-width: none;
+	/* Firefox
+	-ms-overflow-style: none; /* IE 10+ */
+	-webkit-box-sizing: border-box;
+	/* Safari, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
+
+html {
+	/*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+	-ms-overflow-style: none;
+	/*火狐下隐藏滚动条*/
+	overflow: -moz-scrollbars-none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* UI布局开始 */
+
+nav.small {
+	height: 96px;
+	transition: all .5s ease-in-out;
+	border: none;
+}
+
+nav {
+	height: 178px;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+}
+
+.UI_nav {
+	position: absolute;
+	top: calc(50% - 58px/2);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 15px;
+}
+
+.UI-item_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.UI-item_title>.time_title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
+
+.UI-item_title>.time_title>p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #666666;
+}
+
+.UI-item_title>.time_title>h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	color: #1D1D25;
+}
+
+
+
+
+.UI_container {
+	width: 100%;
+	max-width: 1280px;
+	height: 100%;
+	/* overflow-y: scroll; */
+	margin: 0 auto;
+	padding: 0 15px;
+	padding-bottom: 0px;
+	position: relative;
+	height: 1800px;
+	/* background-color: #0035FF; */
+	margin-top: 178px;
+}
+
+.items_intro>p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 240%;
+	color: #1D1D25;
+	margin-bottom: 64px;
+}
+
+.UI_img {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.UI_img>img {
+	width: 100%;
+}

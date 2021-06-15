@@ -3,7 +3,7 @@
 	width: 100%;
 	height: 64px;
 	background: #FFFFFF;
-	border-bottom: 0.5px solid rgba(0,0,0,0.08);
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
 	/* box-shadow: inset 0px -0.5px 0px rgba(0, 0, 0, 0.15); */
 	/* position: fixed; */
 }
@@ -272,7 +272,7 @@
 	width: 100%;
 	height: 64px;
 	/* box-shadow: inset 0px 0.5px 0px rgb(0 0 0 / 15%); */
-	border-top: 0.5px solid rgba(0,0,0,0.08);
+	border-top: 0.5px solid rgba(0, 0, 0, 0.08);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -356,7 +356,7 @@
 	line-height: 24px;
 	letter-spacing: 0.07em;
 	color: #FFFFFF;
-    font-feature-settings: 'ss01' on;
+	font-feature-settings: 'ss01'on;
 }
 
 .time_container>h1 {
@@ -365,7 +365,7 @@
 }
 
 /* 弹窗样式 */
-.timeout_mask{
+.timeout_mask {
 	position: fixed;
 	top: 0;
 	width: 0;
@@ -374,6 +374,7 @@
 	z-index: 98;
 	display: none;
 }
+
 #alert {
 	box-shadow: 0px 4px 50px 11px #00d8ff75;
 	overflow: hidden;
@@ -389,13 +390,15 @@
 	z-index: 99;
 	margin-top: 100px;
 	opacity: 0;
-	transition: all 0.3s ease!important;
+	transition: all 0.3s ease !important;
 }
-.alert_active{
-	margin-top: 0px!important;
-	opacity: 1!important;
-	transition: all 0.3s ease!important;
+
+.alert_active {
+	margin-top: 0px !important;
+	opacity: 1 !important;
+	transition: all 0.3s ease !important;
 }
+
 #alert>h4 {
 	font-style: normal;
 	font-weight: 500;
@@ -429,13 +432,14 @@
 	border: 1px solid rgba(0, 0, 0, 0);
 }
 
-#hour,#minute{
+#hour,
+#minute {
 	outline: none;
 	width: 20px;
 	font-size: 15px;
 	border: 0;
 	background: none;
-	font-feature-settings: 'ss01' on;
+	font-feature-settings: 'ss01'on;
 }
 
 #hour {
@@ -444,7 +448,7 @@
 	margin-right: 5px;
 }
 
-#minute{
+#minute {
 	width: 131px;
 	margin-left: 5px;
 }
@@ -469,8 +473,8 @@
 	height: 44px;
 	border: none;
 	background: #FFFFFF;
-	border-top: 0.5px solid rgba(0,0,0,0.1);
-	border-right: 0.5px solid rgba(0,0,0,0.1);
+	border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+	border-right: 0.5px solid rgba(0, 0, 0, 0.1);
 	border-radius: 0px;
 	color: #AAAAAA;
 	font-style: normal;
@@ -486,7 +490,7 @@
 	height: 44px;
 	border: none;
 	background: #FFFFFF;
-	border-top: 0.5px solid rgba(0,0,0,0.1);
+	border-top: 0.5px solid rgba(0, 0, 0, 0.1);
 	border-radius: 0px;
 	color: #003AFF;
 	font-weight: 500;
@@ -716,16 +720,16 @@
 	font-size: 12px;
 	line-height: 20px;
 	text-transform: capitalize;
-	color: rgb(0,0,0,0.4);
+	color: rgb(0, 0, 0, 0.4);
 	text-align: center;
-	
+
 	width: 32px;
 	height: 20px;
 	background: rgba(255, 255, 255, 0.4);
 	border: 0.5px solid rgba(255, 255, 255, 0.7);
 	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
-	
+
 	position: absolute;
 	right: 10px;
 	top: 10px;
@@ -778,3 +782,4 @@
 	top: 50%;
 	left: 50%;
 }
+
