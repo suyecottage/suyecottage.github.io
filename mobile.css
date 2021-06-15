@@ -168,3 +168,16 @@
 		font-size: 18px;
 		line-height: 24px;
 	}
+	
+	
+	/* ui内容 */
+	.UI-item_title>.time_title>h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	.UI-item_title>.time_title>p {
+		font-size: 12px;
+		line-height: auto;
+	}
+	
