@@ -1,0 +1,56 @@
+	.myprofile {
+		margin-bottom: 40px;
+	}
+
+	.time_container {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 24px;
+		margin-bottom: -16px;
+	}
+	
+	.time_container>h1 {
+		color: #FFFFFF;
+		font-size: 24px;
+	}
+	
+	
+	.audio_cover {
+		margin: 0 7.5px;
+		border-radius: 8px;
+	}
+	
+	.audio {
+		margin-bottom: 20px;
+	}
+	
+	.audio_container {
+		margin: 0 -7.5px;
+		margin-bottom: 16px;
+	}
+	
+	.audio_item_title {
+		/* transform: scale(0.7); */
+		font-size: 14px;
+		/* left: calc(50% - 54px/2 - 0.37px); */
+		top: calc(50% - 79.63px/2 - 0.37px);
+		transition: all 0.8s ease;
+	}
+	
+	.audio_item_title>svg {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 12px;
+	}
+	.irs--flat{
+		width: 110px;
+		transform: translateY(28px);
+		opacity: 0;
+		transition: all 0.8s ease;
+		margin-top:2px;
+	}
+	
+	.about_img>img {
+		width: 231px;
+	}
+	

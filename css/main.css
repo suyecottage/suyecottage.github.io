@@ -1,0 +1,205 @@
+/* 头部绝对定位-猫咪 */
+.banner {
+	height: 480px;
+	width: 100%;
+	background-color: #002FA7;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+
+/* 回到顶部 */
+#backtop {
+	width: 48px;
+	height: 48px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	background: #070E28;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	transform: translateY(40px);
+	opacity: 0;
+	border: 0.5px solid rgba(255, 255, 255, 0.2);
+	z-index: 999;
+}
+#backtop img {
+	margin: 12px;
+}
+
+
+/* 主体部分max-w：1280px */
+.view {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+
+/* 可视区域开始 */
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 680px;
+	background-color: #FFFFFF;
+	height: 100vh;
+	margin: 0 auto;
+	border-radius: 12px 12px 0px 0px;
+	position: relative;
+}
+
+
+/* 📮邮箱 */
+.contact {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	padding: 8px;
+	right: 16px;
+	top: 16px;
+	transition: all 0.3s; 
+}
+.contact:hover {
+	background: rgba(0, 0, 0, 0.04);
+	transition: all 0.3s; 
+}
+
+
+/* 导航及简介开始 */
+.header {
+	padding: 48px;
+	width: 100%;
+}
+.personal>img {
+	width: 120px;
+	border-radius: 60px;
+}
+.personal>h1 {
+	color: #292929;
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 45px;
+	margin: 24px 0 12px 0;
+}
+.personal>p {
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 24px;
+	color: #666C7E;
+}
+
+/* 导航开始 */
+.nav {
+	margin: 40px 0 25px 0;
+}
+.nav>ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav>ul>li {
+	padding: 10px 15px;
+	border: 1px solid #E4E7EB;
+	border-radius: 22px;
+	margin: 0 15px 15px 0;
+	background-color: #FFFFFF;
+}
+.nav>ul>li>a {
+	display: flex;
+	align-items: center;
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 24px;
+	text-transform: capitalize;
+	color: #070E28;
+}
+.nav>ul>li>a>img {
+	margin-right: 8px;
+}
+
+/* web-info二次简介 */
+.web-info {
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 32px;
+	color: #666C7E;
+}
+
+
+/* 分割线 */
+.line {
+	padding: 0px 48px;
+	width: 100%;
+	margin: 0 auto;
+}
+.line>hr {
+	width: 100%;
+	opacity: 20%;
+	text-align: center;
+}
+
+
+/* 展示部分，work */
+.works {
+	display: flex;
+	flex-direction: column;
+	padding: 0 48px 0 48px;
+	width: 100%;
+}
+.years>h2 {
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 34px;
+	color: #292929;
+	margin: 32px 0 32px 0;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666C7E;
+}
+.time>img {
+	margin-right: 8px;
+}
+
+.type {
+	display: flex;
+	margin: 20px 0;
+}
+.type>li {
+	padding: 10px 15px;
+	margin-right: 12px;
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+.type>li>img {
+	margin-right: 10px;
+}
