@@ -5,55 +5,64 @@
 		<title>Yu's blog</title>
 		<link rel="shortcut icon" type="image/x-icon" href="img/logo_design.svg" />
 		<link rel="stylesheet" type="text/css" href="css/cat.css" />
-		<link rel="stylesheet" type="text/css" href="css/main.css"/>
-		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link media="(max-width:540px)" rel="stylesheet" type="text/css" href="css/mobile.css"/>
 		<script src="js/cat.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
-		
+
 		<!-- 主体部分开始 -->
 		<div class="view">
 			<!-- 可视区域 -->
 			<div class="box">
 				<!-- 📮邮箱 -->
-				<a class="contact" href="mailto:suyecottage@foxmail.com"><img src="./img/icon_email.svg" ></a>
+				<a class="contact" href="mailto:suyecottage@foxmail.com">
+					<!-- <img src="./img/icon_email.svg"> -->
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path
+							d="M5.04878 4.5C3.64113 4.5 2.5 5.61929 2.5 7V17C2.5 18.3807 3.64113 19.5 5.04878 19.5H18.9512C20.3589 19.5 21.5 18.3807 21.5 17V7C21.5 5.61929 20.3589 4.5 18.9512 4.5H5.04878ZM4.3602 6.08604C4.5527 5.94628 4.7909 5.86364 5.04878 5.86364H18.9512C19.2091 5.86364 19.4473 5.94628 19.6398 6.08604L12.6872 11.1109C12.2786 11.4063 11.7214 11.4063 11.3128 11.1109L4.3602 6.08604ZM3.89024 7.44022L10.4881 12.2087C11.3872 12.8585 12.6128 12.8585 13.5119 12.2087L20.1098 7.44022V17C20.1098 17.6276 19.5911 18.1364 18.9512 18.1364H5.04878C4.40894 18.1364 3.89024 17.6276 3.89024 17V7.44022Z" />
+					</svg>
+				</a>
 				<!-- 导航及简介 -->
 				<div class="header">
 					<div class="personal">
-						<img src="./img/avatar.svg" >
+						<img src="./img/avatar.svg">
 						<h1>👋 hi，我是Yu</h1>
 						<p>我是一名设计师。这是我的个人网站，随意逛逛，希望喜欢。</p>
 					</div>
 					<div class="nav">
 						<ul>
 							<li>
-								<a href=""><img src="./img/icon_smartphone.svg" >Soul Replicator</a>
+								<a href=""><img src="./img/icon_smartphone.svg">Soul Replicator</a>
 							</li>
 							<li>
-								<a href=""><img src="./img/icon_camera.svg" >有时候摄影</a>
+								<a href=""><img src="./img/icon_camera.svg">有时候摄影</a>
 							</li>
 							<li>
-								<a href="./Easter eggs/relax.html"><img src="./img/timer-flash-fill.svg" >来吧，专注一下？</a>
+								<a href="./Easter eggs/relax.html"><img src="./img/timer-flash-fill.svg">来吧，专注一下？</a>
 							</li>
 							<li>
-								<a href=""><img src="./img/user-6-fill.svg" >about</a>
+								<a href=""><img src="./img/user-6-fill.svg">about</a>
 							</li>
 							<li>
-								<a href="https://www.figma.com/@yu_yu"><img src="./img/figma.svg" >使用Figma</a>
+								<a href="https://www.figma.com/@yu_yu"><img src="./img/figma.svg">使用Figma</a>
 							</li>
 							<li>
-								<a href="https://github.com/suyecottage"><img src="./img/github-line.svg" >github没啥</a>
+								<a href="https://github.com/suyecottage"><img src="./img/github-line.svg">github没啥</a>
 							</li>
 						</ul>
 					</div>
 					<div class="web-info">
 						这是我第二次建站，仍然是静态网页。<br>
-						我了解到codesign的时候，我觉得这个词太棒了！code[代码]-design[设计]！尝试做一个个人网站的想法也随之一直在我的脑海中...
+						在我了解到codesign的时候，我觉得这个词太棒了！code[代码]-design[设计]！尝试做一个个人网站的想法也随之一直在我的脑海中...
 					</div>
 				</div>
 				<!-- 分割线 -->
-				<div class="line"><hr ></div>
+				<div class="line">
+					<hr>
+				</div>
 				<!-- 展示部分 -->
 				<div class="works">
 					<div class="years">
@@ -63,19 +72,40 @@
 								<a href="">
 									<!-- 什么时候做的 -->
 									<div class="time">
-										<img src="img/time-fill.svg" >
+										<img src="img/time-fill.svg">
 										2021年07月25日
 									</div>
-								     <!-- 做了些什么 -->
+									<!-- 做了些什么 -->
 									<ul class="type">
-										<li style="background: rgba(1, 83, 255, 0.1); color: #0153FF
-;">
-											<img src="./img/computer-fill.svg" >创建了一个网站
+										<li style="background: rgba(1, 83, 255, 0.1); color: #0153FF;">
+											<img src="./img/computer-fill.svg">创建了一个网站
 										</li>
-										<li style="background: rgba(29, 159, 66, 0.1);color: #1D9F42;
-
-">
-											<img src="./img/code-box-fill.svg" >写了点代码
+										<li style="background: rgba(29, 159, 66, 0.1);color: #1D9F42;">
+											<img src="./img/code-box-fill.svg">写了点代码
+										</li>
+									</ul>
+								</a>
+							</li>
+							<li><a href=""></a></li>
+						</ul>
+					</div>
+					<div class="years">
+						<h2>2020</h2>
+						<ul>
+							<li>
+								<a href="">
+									<!-- 什么时候做的 -->
+									<div class="time">
+										<img src="img/time-fill.svg">
+										2021年07月25日
+									</div>
+									<!-- 做了些什么 -->
+									<ul class="type">
+										<li style="background: rgba(1, 83, 255, 0.1); color: #0153FF;">
+											<img src="./img/computer-fill.svg">创建了一个网站
+										</li>
+										<li style="background: rgba(29, 159, 66, 0.1);color: #1D9F42;">
+											<img src="./img/code-box-fill.svg">写了点代码
 										</li>
 									</ul>
 								</a>
@@ -86,13 +116,13 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- banner部分 -->
 		<div class="banner">
 			<!-- 猫咪 -->
 			<div class="outer_wrapper">
 				<div class="wrapper">
-		
+
 					<div class="cat_wrapper">
 						<div class="cat first_pose">
 							<div class="cat_head">
@@ -104,7 +134,7 @@
 			                V35.7z M10.2,61.2v-5.1H5.1V51H0V25.5h5.1V15.3h5.1V5.1h5.1V0h5.1v5.1h5.1v5.1h5.1v5.1c0,0,15.2,0,15.2,0v-5.1h5.1V5.1H56V0h5.1v5.1
 			                h5.1v10.2h5.1v10.2h5.1l0,25.5h-5.1v5.1h-5.1v5.1H10.2z" fill: #002FA7;; />
 								</svg>
-		
+
 							</div>
 							<div class="body">
 								<svg x="0px" y="0px" width="100%" height="100%" viewBox="0 0 91.7 40.8">
@@ -112,7 +142,7 @@
 										d="M91.7,40.8H0V10.2h5.1V5.1h5.1V0h66.2v5.1h10.2v5.1h5.1L91.7,40.8z" fill:
 										#002FA7; />
 								</svg>
-		
+
 								<div class="tail">
 									<svg x="0px" y="0px" width="100%" height="100%" viewBox="0 0 25.5 61.1">
 										<polygon class="st0" points="10.2,56 10.2,50.9 5.1,50.9 5.1,40.7 0,40.7 0,20.4 5.1,20.4 5.1,10.2 10.2,10.2 10.2,5.1 15.3,5.1 
@@ -121,7 +151,7 @@
 									</svg>
 								</div>
 							</div>
-		
+
 							<div class="front_legs">
 								<div class="leg one">
 									<svg x="0px" y="0px" width="100%" height="100%" viewBox="0 0 14 30.5">
@@ -136,7 +166,7 @@
 									</svg>
 								</div>
 							</div>
-		
+
 							<div class="back_legs">
 								<div class="leg three">
 									<svg x="0px" y="0px" width="100%" height="100%" viewBox="0 0 14 30.5">
@@ -156,7 +186,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- 返回顶部 -->
 		<div id="backtop" onclick="showBookmark('#head');">
 			<img src="img/icon_arrow-up.svg">

@@ -1,0 +1,52 @@
+/* 以下样式在移动端的时候生效 */
+
+.view {
+	max-width: 680px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.header {
+	padding: 32px 20px 48px;
+	width: 100%;
+}
+
+.personal>h1 {
+	color: #292929;
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 45px;
+	margin: 24px 0 12px 0;
+}
+.personal>p {
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 24px;
+	color: #666C7E;
+}
+
+.web-info {
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 24px;
+	color: #666C7E;
+}
+
+.line {
+	padding: 0px 20px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.works {
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	width: 100%;
+}
