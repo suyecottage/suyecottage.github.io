@@ -1,0 +1,73 @@
+.header-item {
+	padding: 22px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* 返回首页 */
+.back_home {
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: capitalize;
+	color: #333342;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+
+.back_home>img {
+	margin-right: 8px;
+}
+
+.back_home:hover {
+	background-color: #F5F5F5;
+	transition: all 0.3s;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+
+/* 内容 */
+.item_view {
+	display: flex;
+	flex-direction: column;
+	padding: 8px 32px 32px;
+	width: 100%;
+}
+.text {
+	margin-bottom: 4px;
+}
+.text>p {
+	font-family: PingFang TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0.03em;
+	color: #666C7E;
+	margin-bottom: 16px;
+}
+.text>p>a {
+	color: #0153FF;
+	padding: 8px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+.text>p>a:hover {
+	background-color: #0153FF;
+	color: #FFFFFF;
+	transition: all 0.3s;
+}

@@ -36,8 +36,12 @@
 	padding-top: 100px;
 }
 
+.box {
+	margin-bottom: 32px;
+}
+
 .header {
-	padding: 32px 20px 48px;
+	padding: 32px 20px 40px;
 	width: 100%;
 }
 
@@ -55,7 +59,7 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 28px;
 	color: #666C7E;
 }
 
@@ -64,8 +68,12 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 32px;
 	color: #666C7E;
+}
+
+.nav {
+	margin: 32px 0 24px 0;
 }
 
 .line {
@@ -89,4 +97,13 @@
 	line-height: 34px;
 	color: #292929;
 	margin: 32px 0 24px 0;
+}
+
+/* 项目页面 */
+.header-item {
+	padding: 16px 8px;
+}
+
+.item_view {
+	padding: 0px 20px 32px;
 }

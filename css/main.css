@@ -28,6 +28,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 #backtop img {
 	margin: 12px;
 	width: 24px;
@@ -49,10 +50,10 @@
 	align-items: center;
 	width: 100%;
 	background-color: #FFFFFF;
-	height: 100vh;
 	margin: 0 auto;
 	border-radius: 12px 12px 0px 0px;
 	position: relative;
+	margin-bottom: 120px;
 }
 
 
@@ -66,16 +67,19 @@
 	padding: 8px;
 	right: 16px;
 	top: 16px;
-	transition: all 0.3s; 
+	transition: all 0.3s;
 }
+
 .contact:hover {
 	background: rgba(0, 0, 0, 0.04);
-	transition: all 0.3s; 
+	transition: all 0.3s;
 }
+
 .contact:hover>svg>path {
 	fill: #0153FF;
 	transition: all 0.4s;
 }
+
 .contact>svg>path {
 	fill: #1D1D25;
 }
@@ -86,10 +90,12 @@
 	padding: 48px;
 	width: 100%;
 }
+
 .personal>img {
 	width: 120px;
 	border-radius: 60px;
 }
+
 .personal>h1 {
 	color: #292929;
 	font-family: PingFang TC;
@@ -99,6 +105,7 @@
 	line-height: 45px;
 	margin: 24px 0 12px 0;
 }
+
 .personal>p {
 	font-family: PingFang TC;
 	font-style: normal;
@@ -112,10 +119,12 @@
 .nav {
 	margin: 40px 0 25px 0;
 }
+
 .nav>ul {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .nav>ul>li {
 	padding: 10px 15px;
 	border: 1px solid #E4E7EB;
@@ -123,6 +132,7 @@
 	margin: 0 15px 15px 0;
 	background-color: #FFFFFF;
 }
+
 .nav>ul>li>a {
 	display: flex;
 	align-items: center;
@@ -134,6 +144,7 @@
 	text-transform: capitalize;
 	color: #070E28;
 }
+
 .nav>ul>li>a>img {
 	margin-right: 8px;
 }
@@ -144,7 +155,7 @@
 	font-style: normal;
 	font-weight: 300;
 	font-size: 17px;
-	line-height: 32px;
+	line-height: 36px;
 	color: #666C7E;
 }
 
@@ -155,6 +166,7 @@
 	width: 100%;
 	margin: 0 auto;
 }
+
 .line>hr {
 	width: 100%;
 	opacity: 20%;
@@ -169,6 +181,7 @@
 	padding: 0 48px;
 	width: 100%;
 }
+
 .years>h2 {
 	font-family: PingFang TC;
 	font-style: normal;
@@ -189,6 +202,7 @@
 	line-height: 20px;
 	color: #666C7E;
 }
+
 .time>img {
 	margin-right: 8px;
 }
@@ -197,6 +211,7 @@
 	display: flex;
 	margin: 20px 0;
 }
+
 .type>li {
 	padding: 10px 15px;
 	margin-right: 12px;
@@ -208,9 +223,18 @@
 	text-transform: capitalize;
 	display: flex;
 	align-items: center;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
 }
+
 .type>li>img {
 	margin-right: 10px;
+}
+
+/* 封面图设置 */
+.cover {
+	width: 100%;
+	border: 1px solid #EFF3F4;
+	border-radius: 8px;
+	vertical-align: middle;
 }
