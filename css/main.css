@@ -234,7 +234,11 @@
 /* 封面图设置 */
 .cover {
 	width: 100%;
+	overflow: hidden;
 	border: 1px solid #EFF3F4;
 	border-radius: 8px;
+}
+.cover>img {
+	width: 100%;
 	vertical-align: middle;
 }
