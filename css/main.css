@@ -229,6 +229,7 @@
 
 .type>li>img {
 	margin-right: 10px;
+	width: 18px;
 }
 
 /* 封面图设置 */
@@ -237,6 +238,7 @@
 	overflow: hidden;
 	border: 1px solid #EFF3F4;
 	border-radius: 8px;
+	margin-bottom: 20px;
 }
 .img_cover>img {
 	width: 100%;
