@@ -35,7 +35,7 @@ document.ondragstart = function() {
 window.onscroll = function() {
 	var topScroll = get_scrollTop_of_body();
 	var backTop = document.getElementById('backtop');
-	if (topScroll > 100) {
+	if (topScroll > 400) {
 		backTop.style.transform = 'translateY(0px)';
 		backTop.style.opacity = '1';
 	} else {
