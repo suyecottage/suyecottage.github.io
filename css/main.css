@@ -37,7 +37,7 @@
 
 /* 主体部分max-w：1280px */
 .view {
-	max-width: 680px;
+	max-width: 780px;
 	margin: 0 auto;
 	padding-top: 120px;
 }
@@ -205,6 +205,10 @@
 
 .time>img {
 	margin-right: 8px;
+}
+
+.item>li {
+	margin-bottom: 48px;
 }
 
 .type {
